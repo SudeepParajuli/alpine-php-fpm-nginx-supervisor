@@ -13,6 +13,7 @@ First of all,clone the files in specific directory using :
 
 ```
 git clone https://github.com/SudeepParajuli/alpine-php-fpm-nginx-supervisor.git
+cd alpine-php-fpm-nginx-supervisor
 
 ```
 
