@@ -7,7 +7,7 @@ This image is based on alpine:latest base image .
 As the image is based on alpine base image the size of image is around 70 mb .we can have the overview of image size here https://imagelayers.io/?images=sudeep254%2Falpine-php-nginx-supervisor:latest
 we have used supervisor to make php-fpm and nginx process running.
 
-### Running the container :
+## Running the container :
 #### we can run the container using :
 ```
 docker run  sudeep254/alpine-php-nginx-supervisor
