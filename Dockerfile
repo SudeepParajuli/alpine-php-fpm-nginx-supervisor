@@ -15,6 +15,7 @@ RUN apk --update add \
   supervisor
 RUN mkdir -p /etc/nginx
 RUN mkdir -p /var/run/php-fpm
+COPY  default /etc/nginx/sites-enabled/default
 RUN mkdir -p /var/log/supervisor
 RUN rm /etc/nginx/nginx.conf
 ADD nginx.conf /etc/nginx/nginx.conf

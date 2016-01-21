@@ -19,7 +19,7 @@ git clone https://github.com/SudeepParajuli/alpine-php-fpm-nginx-supervisor.git
 
 
 ## Building the Image :
-#### Image can be  build the image using :
+#### Image can be  build the  using :
 ```
 docker build -t php-fpm-nginx-supervisor:latest . 
 
