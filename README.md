@@ -34,7 +34,7 @@ The container can be created using :
 
 ```
 
-docker run -it --name phpfpm-nginx-supervisor php-fpm-nginx-supervisor:latest
+docker run  --name phpfpm-nginx-supervisor php-fpm-nginx-supervisor:latest
 
 ```
 
